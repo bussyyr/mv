@@ -6,23 +6,6 @@
 #include <string.h>
 
 
-/*
-int move_file_to_director(const char *source, const char *dest_dir)
-{
-    char dest[PATH_MAX];
-
-    snprintf(dest, sizeof(dest), "%s/%s", dest_dir, strrchr(source,'/') ? strrchr(source,'/') + 1 : source);
-
-    if(rename(source, dest) == 0)
-    {
-        return 0;
-    }else{
-        perror("error moving file to the directory");
-        return 1;
-    }
-}
-*/
-
 int is_directory(const char *path) {
     size_t len = strlen(path);
 
