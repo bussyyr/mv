@@ -4,6 +4,6 @@
 #include <stdbool.h>
 
 // Dosyayı bir dizine taşır
-bool move_file_to_directory(const char *source, const char *destination_dir);
+int move_file_to_directory(const char *source, const char *destination_dir);
 
 #endif // MOVE_UTILS_H

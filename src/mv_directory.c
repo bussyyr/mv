@@ -1,4 +1,4 @@
-#include "include/mv_directory.h"
+#include "/Users/buseokcu/CLionProjects/mv/include/mv_directory.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,7 +7,7 @@
 #include <dirent.h>
 #include <libgen.h>
 #include <limits.h>
-#include "mv_file.h"
+#include "/Users/buseokcu/CLionProjects/mv/include/mv_file.h"
 
 int mv_directory(const char* source, const char* destination) {
   char dest_path[PATH_MAX];
